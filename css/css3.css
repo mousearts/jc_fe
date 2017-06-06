@@ -1,0 +1,68 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+body{
+    background-color: #e8e8e8
+}
+
+#header{
+    margin-bottom: 35px;
+}
+
+.container{
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo{
+    display: inline;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px;
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#body{
+    background: white;
+    /*column-count: 3;*/
+}
+
+#footer{
+    text-align: right;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.flexitem{
+    margin: 10px;
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+}
+
+.flexitem:hover{
+    transform: rotate(22deg);
+}
